@@ -1,0 +1,11 @@
+@import "../valo/valo.scss";
+
+.myapp{
+	@include valo;
+	
+	.red .v-button-caption {
+		 color: red;
+	}
+	
+
+}
